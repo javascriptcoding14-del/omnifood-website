@@ -1,0 +1,158 @@
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size:30px;
+    }
+    .hero-text{
+    padding:60px;
+    
+}
+.btn{font-size:0.6rem;}
+.logo{height:7rem;}
+h2{font-size: 1.4rem;}
+.how-it-work{padding:4rem 2rem;}
+.left img{width:65%;}
+.right{align-items:flex-start;}
+.work-sub-div span { padding:0;}
+.work-sub-div p{font-size:0.7rem;}
+.btn-img img{height:50px;}
+.cities:before{
+    margin-bottom:80px;
+    width:1000px;
+}
+h3{
+    font-size:1rem;
+    margin-bottom:20px;
+}
+.city-feature{ font-size:0.7rem;}
+.box1 ion-icon{font-size:0.7rem;}
+.testimonials{ min-height:60vh;}
+.price-plans{
+    min-height:80vh;}
+}
+
+@media only screen and (max-width: 834px) {
+    html{font-size:16px;
+    }
+    .hero-text{padding:30px;}
+.btn{font-size:0.6rem;}
+.logo{height:5rem;}
+.left{
+    padding-left:5rem;
+}
+h2{font-size: 1.4rem;}
+.how-it-work{padding:3rem 0;}
+.right{align-items:flex-start;}
+.work-sub-div span { padding:6px;}
+.work-sub-div p{font-size:0.9rem;}
+.btn-img img{height:35px;}
+.cities:before{
+    margin-bottom:50px;
+    width:700px;
+}
+h3{
+    font-size:1rem;
+    margin-bottom:20px;
+}
+.city-feature{ font-size:0.7rem;}
+.box1 ion-icon{font-size:0.8rem;}
+.testimonials{ min-height:60vh;}
+blockquote{
+    font-size:0.7rem}
+cite{ font-size:0.8rem;}
+.price-plans{
+    min-height:80vh;}
+}
+
+@media only screen and (max-width: 390px) {
+    html{font-size:16px;
+    }
+    h1{
+    font-size:1.4rem;
+    letter-spacing: 0px;
+    word-spacing:2px;}
+    .hero-text{padding:10px;}
+.btn{font-size:0.6rem;}
+.logo{height:6rem;}
+.nav-links{
+    display:none;
+}
+.left{
+    padding-left:6rem;
+}
+h2{font-size: 1.1rem;}
+.how-it-work{padding:1rem 0;
+    flex-direction: column;
+}
+.right{align-items:flex-start;
+ padding-right:0;
+padding:20px;}
+.work-sub-div span { padding:6px;}
+.work-sub-div p{font-size:0.8rem;}
+.btn-img img{height:35px;}
+.col{
+    width:100%;
+}
+.cities:before{
+    margin-bottom:30px;
+    width:300px;
+}
+h3{
+    font-size:1rem;
+    margin-bottom:20px;
+    text-align:center;
+}
+.city-feature{ font-size:0.8rem;
+text-align:center;}
+.box1 ion-icon{font-size:0.8rem;}
+.testimonials{ min-height:120vh;}
+blockquote{
+    font-size:0.7rem}
+cite{ font-size:0.8rem;}
+.price-plans{
+    min-height:160vh;}
+cite img{
+height:30px;}
+footer{
+    background-color:#333;
+    padding:3rem;
+    font-size:0.7rem;
+}
+.footer-nav{
+    text-align:center;
+    float:none;
+    margin-bottom:10px;
+}
+.footer-logo{
+    float:none;
+    text-align:center;
+    margin-bottom:15px;
+}
+.footer-nav li{
+    display:inline-block;
+    margin-right:15px;
+}
+.footer-logo li{
+    text-align: center;
+    margin:0 20px;
+}
+
+.hamburger{
+    display:block;
+    margin-right:30px;
+}
+.hamburger:focus ~.nav-links{
+    position:absolute;
+    top:70px;
+    right:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding:10px 20px;
+    background-color:#333;
+    border-radius: 0.8rem;;
+}
+}
+
+
+
